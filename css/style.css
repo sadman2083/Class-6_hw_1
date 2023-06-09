@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: red;
+    background-color: #faf0f0;
 }
 ul{
     list-style-type: none;
@@ -14,7 +14,7 @@ li{
     display: inline-block;
 }
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size:25px;
     text-decoration: none;
     padding: 15px 20px;
@@ -23,13 +23,13 @@ a{
     transition:.6s;
 }
 a:hover{
-    background-color: black;
-    border-bottom-color: #00DFA2;
+    background-color: #d4c8c8;
+    border-bottom-color: red;
 }
 
 
 #banner{
-    background-image: url(https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHx8fDE2ODYyMTI4MTN8MA&ixlib=rb-4.0.3&q=80&w=1080);
+    background-image: url(/Class-6_hw_1/images/nature.jpg);
     height: 400px;
     background-size: cover;
 }
@@ -42,4 +42,12 @@ div{
 }
 img{
     width: 100%;
+}
+#icon{
+    background-image: url(https://www.creativeitinstitute.com/logo.png);
+     width: 173px;
+     height: 53px;
+
+    
+    
 }
